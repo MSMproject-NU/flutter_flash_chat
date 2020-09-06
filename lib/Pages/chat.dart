@@ -77,8 +77,11 @@ class _ChatState extends State<Chat> {
         ),
         title: widget.selectedUserName == null || widget.selectedUserName == ""
             ? ""
-            : Text(widget.selectedUserName,
-                style: TextStyle(color: Theme.of(context).primaryColor)),
+            : ListTile(
+              leading: ,
+              title: Text(widget.selectedUserName,
+                  style: TextStyle(color: Theme.of(context).primaryColor)),
+            ),
 
 
       ),
